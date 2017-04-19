@@ -746,7 +746,7 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     color: #7a7a7a;
 }
 .musicMove {
-    -webkit-animation: music 1s steps(15) infinite;
+    -webkit-animation: music 1s steps(15,end) infinite;
 }
 
 /*animations*/
