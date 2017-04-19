@@ -314,7 +314,7 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     left: 0;
     right: 0;
     top: 5rem;
-    padding-left: 2.2rem;
+    padding-left: 1.6rem;
     font-size: .35rem;
     font-family: "黑体";
     line-height: 1.4rem;
@@ -387,8 +387,8 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     opacity: 0;
     display: block;
     position: absolute;
-    margin-top: .5rem;
-    top: .5rem;
+    margin-top: -.1rem;
+    top: .4rem;
 }
 #page3 .line .point{
     opacity: 1;
@@ -416,9 +416,9 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
 .page03 .line_text .line-show,.page04 .line_text .line-show {
     opacity:0;
     position: absolute;
-    margin-top: .5rem;
+    margin-top: -.3rem;
     width: 4rem;
-    top: .1rem;
+    top: .3rem;
 }
 #page3 .line_text .line-show{
     opacity: 1;
@@ -559,7 +559,7 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
 }
 
 .page04 .line_text .line-show:nth-child(2n) {
-    left: -3.2rem;
+    left: -3.5rem;
 }
 
 .page04 .line_text .line-show:nth-child(2n+1) {
@@ -621,7 +621,7 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     opacity: 0;
     position: relative;
     margin: 0 auto;
-    top: 6rem;
+    top: 5rem;
     width: 100%;
     text-align: center;
 }
