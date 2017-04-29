@@ -786,10 +786,7 @@ html, body, .swiper-container, .swiper-slide, .wrapTest {
 }
 
 .musicMove {
-    -webkit-animation: music 1s steps(15) infinite;
-    -webkit-transform: translate3d(0, 0, 0);
-    -webkit-backface-visibility: hidden;
-    -webkit-transform-style: preserve-3d;
+    -webkit-animation: music 1s steps(15,start) infinite;
 }
 
 /*animations*/
@@ -817,18 +814,18 @@ html, body, .swiper-container, .swiper-slide, .wrapTest {
 
 @-webkit-keyframes music {
     0% {
-        background-position: 0 0;
+        background-position: -21rem 0;
     }
     100% {
-        background-position: -21rem 0;
+        background-position: 0 0;
     }
 }
 
 @keyframes music {
     0% {
-        background-position: 0 0;
+        background-position: -21rem 0;
     }
     100% {
-        background-position: -21rem 0;
+        background-position: 0 0;
     }
 }
