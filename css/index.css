@@ -786,8 +786,8 @@ html, body, .swiper-container, .swiper-slide, .wrapTest {
 }
 
 .musicMove {
-    -webkit-animation: music 1s steps(15,start) infinite;
-    animation: music 1s steps(15,start) infinite;
+    -webkit-animation: music 1s  -.5s steps(15,start) infinite;
+    animation: music 1s -.5s steps(15,start) infinite;
 }
 
 /*animations*/
