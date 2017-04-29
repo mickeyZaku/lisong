@@ -767,7 +767,7 @@ html, body, .swiper-container, .swiper-slide, .wrapTest {
 }
 
 .changeLaguage {
-    width: 1.3rem;
+    width: 1.2rem;
     height: 1.2rem;
     position: absolute;
     top: .25rem;
@@ -787,6 +787,7 @@ html, body, .swiper-container, .swiper-slide, .wrapTest {
 
 .musicMove {
     -webkit-animation: music 1s steps(15,start) infinite;
+    animation: music 1s steps(15,start) infinite;
 }
 
 /*animations*/
