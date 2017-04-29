@@ -21,7 +21,7 @@ html {
 }
 
 /*外层撑满*/
-html, body, .swiper-container, .swiper-slide , .wrapTest{
+html, body, .swiper-container, .swiper-slide, .wrapTest {
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -46,7 +46,8 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     margin: 4rem auto auto;
     opacity: 0;
 }
-#page1 .head_show,#page6 .head_show{
+
+#page1 .head_show, #page6 .head_show {
     opacity: 1;
     -webkit-animation: rotate2d 10s 0.5s infinite both;
     -moz-animation: rotate2d 10s 0.5s infinite both;
@@ -73,12 +74,14 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     border-radius: 50%;
 
 }
-#page1 .head_img,#page6 .head_img{
+
+#page1 .head_img, #page6 .head_img {
     opacity: 1;
     -webkit-animation: bounceIn 0.9s 0.5s 1 both;
     -moz-animation: bounceIn 0.9s 0.5s 1 both;
     animation: bounceIn 0.9s 0.5s 1 both;
 }
+
 .page01 .head_img img {
     position: absolute;
     top: -.2rem;
@@ -102,20 +105,22 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     font-size: .6rem;
     margin-top: 7.5rem;
 }
-#page1 .ct1,#page6 .ct1{
+
+#page1 .ct1, #page6 .ct1 {
     opacity: 1;
     -webkit-animation: fadeInRight 1s 1.5s 1 both;
     -moz-animation: fadeInRight 1s 1.5s 1 both;
     animation: fadeInRight 1s 1.5s 1 both;
 }
-#page1 .ct2,#page6 .ct2 {
+
+#page1 .ct2, #page6 .ct2 {
     opacity: 1;
     -webkit-animation: fadeInLeft 1s 2.2s 1 both;
     -moz-animation: fadeInLeft 1s 2.2s 1 both;
     animation: fadeInLeft 1s 2.2s 1 both;
 }
 
-#page1 .ct3,#page6 .ct3{
+#page1 .ct3, #page6 .ct3 {
     opacity: 1;
     -webkit-animation: fadeInRight 1s 3s 1 both;
     -moz-animation: fadeInRight 1s 3s 1 both;
@@ -133,30 +138,35 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     z-index: 1;
 
 }
-#page2 .head_show{
+
+#page2 .head_show {
     opacity: 1;
     -webkit-animation: rotate2d 10s 0.5s infinite both;
     -moz-animation: rotate2d 10s 0.5s infinite both;
     animation: rotate2d 10s 0.5s infinite both;
 }
-#page3 .head_show{
+
+#page3 .head_show {
     opacity: 1;
     -webkit-animation: rotate2d 10s 0.5s infinite both;
     -moz-animation: rotate2d 10s 0.5s infinite both;
     animation: rotate2d 10s 0.5s infinite both;
 }
-#page4 .head_show{
+
+#page4 .head_show {
     opacity: 1;
     -webkit-animation: rotate2d 10s 0.5s infinite both;
     -moz-animation: rotate2d 10s 0.5s infinite both;
     animation: rotate2d 10s 0.5s infinite both;
 }
-#page5 .head_show{
+
+#page5 .head_show {
     opacity: 1;
     -webkit-animation: rotate2d 10s 0.5s infinite both;
     -moz-animation: rotate2d 10s 0.5s infinite both;
     animation: rotate2d 10s 0.5s infinite both;
 }
+
 .line .head_show img {
     width: 100%;
     height: 100%;
@@ -173,12 +183,14 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     border-radius: 50%;
 
 }
-#page2 .head_img,#page3 .head_img,#page4 .head_img, #page5 .head_img{
+
+#page2 .head_img, #page3 .head_img, #page4 .head_img, #page5 .head_img {
     opacity: 1;
     -webkit-animation: bounceIn 0.9s 0.5s 1 both;
     -moz-animation: bounceIn 0.9s 0.5s 1 both;
     animation: bounceIn 0.9s 0.5s 1 both;
 }
+
 .line .head_img img {
     position: absolute;
     top: -.1rem;
@@ -194,46 +206,51 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     top: 2.1rem;
 }
 
-.line .show_logo li,.line .show_text li {
+.line .show_logo li, .line .show_text li {
     opacity: 0;
     float: left;
     width: 25%;
     z-index: 1;
 }
-#page2 .show_text li{
+
+#page2 .show_text li {
     opacity: 1;
 }
-#page3 .show_text li{
+
+#page3 .show_text li {
     opacity: 1;
 }
-#page4 .show_text li{
+
+#page4 .show_text li {
     opacity: 1;
 }
-#page5 .show_text li{
+
+#page5 .show_text li {
     opacity: 1;
 }
-#page2 .show_logo .logo_img1,#page3 .show_logo .logo_img1,#page4 .show_logo .logo_img1,#page5 .show_logo .logo_img1 {
+
+#page2 .show_logo .logo_img1, #page3 .show_logo .logo_img1, #page4 .show_logo .logo_img1, #page5 .show_logo .logo_img1 {
     opacity: 1;
     -webkit-animation: fadeInDown 1s 1s 1 both;
     -moz-animation: fadeInDown 1s 1s 1 both;
     animation: fadeInDown 1s 1s 1 both;
 }
 
-#page2 .show_logo .logo_img2,#page3 .show_logo .logo_img2,#page4 .show_logo .logo_img2,#page5 .show_logo .logo_img2{
+#page2 .show_logo .logo_img2, #page3 .show_logo .logo_img2, #page4 .show_logo .logo_img2, #page5 .show_logo .logo_img2 {
     opacity: 1;
     -webkit-animation: fadeInDown 1s 1.1s 1 both;
     -moz-animation: fadeInDown 1s 1.1s 1 both;
     animation: fadeInDown 1s 1.1s 1 both;
 }
 
-#page2 .show_logo .logo_img3,#page3 .show_logo .logo_img3,#page4 .show_logo .logo_img3,#page5 .show_logo .logo_img3{
+#page2 .show_logo .logo_img3, #page3 .show_logo .logo_img3, #page4 .show_logo .logo_img3, #page5 .show_logo .logo_img3 {
     opacity: 1;
     -webkit-animation: fadeInDown 1s 1.2s 1 both;
     -moz-animation: fadeInDown 1s 1.2s 1 both;
     animation: fadeInDown 1s 1.2s 1 both;
 }
 
-#page2 .show_logo .logo_img4,#page3 .show_logo .logo_img4,#page4 .show_logo .logo_img4,#page5 .show_logo .logo_img4{
+#page2 .show_logo .logo_img4, #page3 .show_logo .logo_img4, #page4 .show_logo .logo_img4, #page5 .show_logo .logo_img4 {
     opacity: 1;
     -webkit-animation: fadeInDown 1s 1.3s 1 both;
     -moz-animation: fadeInDown 1s 1.3s 1 both;
@@ -265,7 +282,7 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     background: rgba(0, 0, 0, .2);
 }
 
-#page2 .show_text .bg,#page3 .show_text .bg,#page4 .show_text .bg,#page5 .show_text .bg {
+#page2 .show_text .bg, #page3 .show_text .bg, #page4 .show_text .bg, #page5 .show_text .bg {
     opacity: 1;
     -webkit-animation: fadeInRight 1s 1.6s 1 both;
     -moz-animation: fadeInRight 1s 1.6s 1 both;
@@ -295,20 +312,20 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
 
 }
 
-#page2 .show_text .mask,#page3 .show_text .mask,#page4 .show_text .mask,#page5 .show_text .mask {
+#page2 .show_text .mask, #page3 .show_text .mask, #page4 .show_text .mask, #page5 .show_text .mask {
     -webkit-animation: fadeInRight 1s 2.2s 1 both;
     -moz-animation: fadeInRight 1s 2.2s 1 both;
     animation: fadeInRight 1s 2.2s 1 both;
 }
 
-#page2 .show_text span,#page3 .show_text span,#page4 .show_text span,#page5 .show_text span {
+#page2 .show_text span, #page3 .show_text span, #page4 .show_text span, #page5 .show_text span {
     -webkit-animation: fadeIn 1s 2.1s 1 both;
     -moz-animation: fadeIn 1s 2.1s 1 both;
     animation: fadeIn 1s 2.1s 1 both;
 }
 
 .page02 .info {
-    opacity:0;
+    opacity: 0;
     position: relative;
     width: 100%;
     left: 0;
@@ -352,48 +369,55 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     -moz-animation: fadeInUp 1s 3.1s 1 both;
     animation: fadeInUp 1s 3.1s 1 both;
 }
-#page2 .if5{
+
+#page2 .if5 {
     opacity: 1;
     -webkit-animation: fadeInUp 1s 3.3s 1 both;
     -moz-animation: fadeInUp 1s 3.3s 1 both;
     animation: fadeInUp 1s 3.3s 1 both;
 }
+
 /*第三屏*/
 .page03 .show_text .mask {
     left: 3.5rem;
 }
 
-.page03 .line, .line_text{
+.page03 .line, .line_text {
     position: absolute;
     top: 4.8rem;
     z-index: 2;
     left: 3.85rem;
     height: 9.5rem;
 }
-.page03 .line{
+
+.page03 .line {
     opacity: 0;
 }
-.page04 .line{
+
+.page04 .line {
     opacity: 0;
 }
-#page3 .line ,#page4 .line{
+
+#page3 .line, #page4 .line {
     opacity: 1;
     -webkit-animation: fadeInDown 1s 2.3s 1 both;
     -moz-animation: fadeInDown 1s 2.3s 1 both;
     animation: fadeInDown 1s 2.3s 1 both;
 }
 
-.page03 .line .point,.page04 .line .point {
+.page03 .line .point, .page04 .line .point {
     opacity: 0;
     display: block;
     position: absolute;
     margin-top: -.1rem;
     top: .4rem;
 }
-#page3 .line .point{
+
+#page3 .line .point {
     opacity: 1;
 }
-#page4 .line .point{
+
+#page4 .line .point {
     opacity: 1;
 }
 
@@ -413,19 +437,22 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     left: -.2rem;
 }
 
-.page03 .line_text .line-show,.page04 .line_text .line-show {
-    opacity:0;
+.page03 .line_text .line-show, .page04 .line_text .line-show {
+    opacity: 0;
     position: absolute;
     margin-top: -.3rem;
     width: 4rem;
     top: .3rem;
 }
-#page3 .line_text .line-show{
+
+#page3 .line_text .line-show {
     opacity: 1;
 }
-#page4 .line_text .line-show{
+
+#page4 .line_text .line-show {
     opacity: 1;
 }
+
 .page03 .line_text .ls2 {
     top: 1.7rem;
 }
@@ -500,27 +527,31 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     left: .5rem;
 }
 
-.page03 .line-show p ,.page04 .line-show p{
+.page03 .line-show p, .page04 .line-show p {
     font-size: .35rem;
     font-family: "黑体";
     color: #ffffff;
     font-weight: 200;
 }
-#page03 .line_text .line-show,#page04 .line_text .line-show{
+
+#page03 .line_text .line-show, #page04 .line_text .line-show {
     opacity: 1;
 }
+
 /*第四屏*/
 .page04 .show_text .mask {
     left: 4.75rem;
 }
-.page04 .line, .line_text{
+
+.page04 .line, .line_text {
     position: absolute;
     top: 4.8rem;
     z-index: 2;
     left: 3.85rem;
     height: 9.5rem;
 }
-.page04 .line .point,.page04 .line .point {
+
+.page04 .line .point, .page04 .line .point {
     display: block;
     position: absolute;
     margin-top: .5rem;
@@ -542,10 +573,12 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
 .page04 .line .point:nth-child(2n) {
     left: -.2rem;
 }
+
 .page04 .line_text .ls2 {
     top: 1.7rem;
-    left:-3rem;
+    left: -3rem;
 }
+
 .page04 .line_text .ls3 {
     top: 3.7rem;
 }
@@ -565,6 +598,7 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
 .page04 .line_text .line-show:nth-child(2n+1) {
     left: .5rem;
 }
+
 #page4 .ls1 p:nth-child(1) {
     -webkit-animation: fadeInLeft 1s 3s 1 both;
     -moz-animation: fadeInLeft 1s 3s 1 both;
@@ -617,6 +651,7 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
 .page05 .show_text .mask {
     left: 6.05rem;
 }
+
 .page05 .data {
     opacity: 0;
     position: relative;
@@ -630,9 +665,11 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     width: 65%;
     height: 65%;
 }
-#page5 .data{
+
+#page5 .data {
     opacity: 1;
 }
+
 #page5 .data .x-y {
     -webkit-animation: fadeInRight 1s 2.5s 1 both;
     -moz-animation: fadeInRight 1s 2.5s 1 both;
@@ -728,6 +765,7 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     background: url("../image/music.png") no-repeat;
     background-size: 21rem 1rem;
 }
+
 .changeLaguage {
     width: 1.3rem;
     height: 1.2rem;
@@ -737,7 +775,8 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     z-index: 2;
 
 }
-.changeLaguage a{
+
+.changeLaguage a {
     display: block;
     width: 100%;
     height: 100%;
@@ -745,9 +784,12 @@ html, body, .swiper-container, .swiper-slide , .wrapTest{
     font-weight: bold;
     color: #7a7a7a;
 }
+
 .musicMove {
     -webkit-animation: music 1s steps(15) infinite;
-    -webkit-transform:translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
 }
 
 /*animations*/
