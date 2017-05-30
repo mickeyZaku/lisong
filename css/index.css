@@ -422,15 +422,15 @@ html, body, .swiper-container, .swiper-slide, .wrapTest {
 }
 
 .page03 .line .point:nth-child(2) {
-    top: 2rem;
+    top: .5rem;
 }
 
 .page03 .line .point:nth-child(3) {
-    top: 4rem;
+    top: 2rem;
 }
 
 .page03 .line .point:nth-child(4) {
-    top: 6rem;
+    top: 4rem;
 }
 
 .page03 .line .point:nth-child(2n) {
@@ -520,7 +520,7 @@ html, body, .swiper-container, .swiper-slide, .wrapTest {
 }
 
 .page03 .line_text .line-show:nth-child(2n) {
-    left: -2rem;
+    left: -3rem;
 }
 
 .page03 .line_text .line-show:nth-child(2n+1) {
